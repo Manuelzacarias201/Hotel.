@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manuelzacarias.hotel.Controllers.UsuarioController">
+   <children>
+      <TextArea fx:id="listaHabitacionesDisponibles" layoutX="13.0" layoutY="100.0" prefHeight="200.0" prefWidth="573.0" />
+      <Button layoutX="13.0" layoutY="339.0" mnemonicParsing="false" onMouseClicked="#ocuparHabitacion" prefHeight="38.0" prefWidth="461.0" text="Ocupar habitacion" />
+      <Button layoutX="482.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#salir" prefHeight="37.0" prefWidth="103.0" text="Salir" />
+      <Label layoutX="74.0" layoutY="25.0" prefHeight="58.0" prefWidth="451.0" text="Habitaciones disponibles">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

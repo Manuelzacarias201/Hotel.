@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manuelzacarias.hotel.Controllers.Menu">
+   <children>
+      <Label layoutX="32.0" layoutY="85.0" prefHeight="150.0" prefWidth="364.0" text="Hotel el Mar" textFill="#271c96" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="63.0" />
+         </font>
+         <effect>
+            <Glow level="0.55" />
+         </effect>
+      </Label>
+      <Button layoutX="57.0" layoutY="235.0" mnemonicParsing="false" onMouseClicked="#botoningresar" prefHeight="78.0" prefWidth="314.0" text="Ingresar" />
+      <Button layoutX="14.0" layoutY="21.0" mnemonicParsing="false" onMouseClicked="#botonadministrador" text="Modo administardor" />
+      <Button layoutX="355.0" layoutY="21.0" mnemonicParsing="false" onMouseClicked="#botonsalir" text="Salir" />
+   </children>
+</AnchorPane>

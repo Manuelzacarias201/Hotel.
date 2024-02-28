@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manuelzacarias.hotel.Controllers.Administrador">
+   <children>
+      <Label layoutX="38.0" layoutY="14.0" prefHeight="103.0" prefWidth="411.0" text="Bienvenido">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+      <Button layoutX="38.0" layoutY="295.0" mnemonicParsing="false" onMouseClicked="#darDeAltahabitacion" prefHeight="84.0" prefWidth="140.0" text="Dar de alta habitacion" />
+      <Button layoutX="229.0" layoutY="295.0" mnemonicParsing="false" onMouseClicked="#habitacionOcupadas" prefHeight="84.0" prefWidth="140.0" text="Habitaciones ocupadas" />
+      <Button layoutX="413.0" layoutY="295.0" mnemonicParsing="false" onMouseClicked="#habitacionesDisponibles" prefHeight="84.0" prefWidth="140.0" text="Habitaciones disponibles">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="texto" layoutX="41.0" layoutY="101.0" prefHeight="178.0" prefWidth="515.0" />
+      <Button layoutX="501.0" layoutY="31.0" mnemonicParsing="false" onMouseClicked="#salir" text="Salir" />
+   </children>
+</AnchorPane>
